@@ -5,15 +5,15 @@
 ###
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=gauravdubey013&hide_title=false&hide_rank=true&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=tokyonight&locale=en&hide_border=true&order=1&custom_title=Gaurav%20Dubey's%20Stats" height="130" alt="stats graph"  />
-  <img src="https://streak-stats.demolab.com?user=gauravdubey013&locale=en&mode=weekly&theme=tokyonight&hide_border=true&border_radius=2&date_format=M%20j%5B,%20Y%5D&order=3" height="130" alt="streak graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=gauravdubey013&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=10&theme=tokyonight&hide_border=true&order=2" height="130" alt="languages graph"  />
+  <img src="https://github-readme-stats.vercel.app/api?username=gauravdubey013&hide_title=false&hide_rank=true&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=tokyonight&locale=en&hide_border=true&order=1&custom_title=Gaurav%20Dubey's%20Stats" height="150" alt="stats graph"  />
+  <img src="https://streak-stats.demolab.com?user=gauravdubey013&locale=en&mode=weekly&theme=tokyonight&hide_border=true&border_radius=2&date_format=M%20j%5B,%20Y%5D&order=3" height="150" alt="streak graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=gauravdubey013&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=10&theme=tokyonight&hide_border=true&order=2" height="150" alt="languages graph"  />
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=gauravdubey013&radius=16&theme=react&area=true&order=5&bg_color=#000&hide_title=false&hide_border=true" height="300" alt="activity-graph graph"  />
   <img src="https://github-profile-trophy.vercel.app?username=gauravdubey013&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
 </div>
 
 ###
-
+<h1>Tech Stack -</h1>
 <div align="left">
   <img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white&style=for-the-badge" height="30" alt="mongodb logo"  />
   <img width="10" />
@@ -39,7 +39,7 @@
   <img width="10" />
   <img src="https://img.shields.io/badge/Android Studio-3DDC84?logo=androidstudio&logoColor=black&style=for-the-badge" height="30" alt="androidstudio logo"  />
   <img width="10" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="30" alt="java logo"  />
+  <img src="https://camo.githubusercontent.com/b0648ef7a9b6980ea27c1caaeb06d5c8503dbb4f9b4d9d7ca1df60a5edc14340/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6a6176612d2532334544384230302e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d6f70656e6a646b266c6f676f436f6c6f723d7768697465" height="30" alt="java logo"  />
   <img width="10" />
   <img src="https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white&style=for-the-badge" height="30" alt="kotlin logo"  />
   <img width="10" />
@@ -111,8 +111,8 @@
 </div>
 
 ###
-
-<div align="right">
+<h1>Socials -</h1>
+<div align="left">
   <a href="https://www.linkedin.com/in/gaurav-d-b7336a2a8/" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
   </a>
