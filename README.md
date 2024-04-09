@@ -13,7 +13,7 @@
 </div>
 
 ###
-<h1>Tech Stack -</h1>
+<h1>💻 Tech Stack -</h1>
 <div align="left">
   <img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white&style=for-the-badge" height="30" alt="mongodb logo"  />
   <img width="10" />
@@ -111,7 +111,7 @@
 </div>
 
 ###
-<h1>Socials -</h1>
+<h1>🌐 Socials -</h1>
 <div align="left">
   <a href="https://www.linkedin.com/in/gaurav-d-b7336a2a8/" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
