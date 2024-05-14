@@ -116,7 +116,7 @@ height="135" alt="languages graph"  />
 ###
 <h1>🌐 Socials -</h1>
 <div align="left">
-  <a href="https://www.linkedin.com/in/gaurav-d-b7336a2a8/" target="_blank">
+  <a href="https://www.linkedin.com/in/gauravdubey19/" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="25" height="20" alt="linkedin logo"  />
   </a>
   <a href="https://discord.com/channels/553216852130660353/1018120802085916722" target="_blank">
