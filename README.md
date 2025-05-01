@@ -154,7 +154,7 @@ height="139" alt="languages graph"  />
 <a href="https://www.instagram.com/silent_way19/" style="text-decoration:none">
   <img height="30" src = "https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=for-the-badge&logo=Instagram&logoColor=white">
 </a>
-<a href="https://discord.com/channels/553216852130660353/1018120802085916722" style="text-decoration:none">
+<a href="https://discord.com/channels/553216852130660353/1018120802085916722" style="text-decoration:none" target="_blank">
   <img height="30" src="https://img.shields.io/badge/discord-darkblue.svg?&style=for-the-badge&logo=discord&logoColor=white" />
 </a>
 </p>
