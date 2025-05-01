@@ -3,7 +3,14 @@
 </div>
 
 ###
+<!---------------------------- Typewriter animation ----------------------------->
+# Hello👋, It's me Gaurav!👨🏽‍💻
+![](https://readme-typing-svg.herokuapp.com?font=Montserrat&color=00F70AFF&lines=I'm+a+Software+Engineer;I'm+a+Full+Stack+Web+Developer;I'm+a+MERN+Stack+Developer)
 
+
+<!---------------------------- About Me ----------------------------->
+
+###
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=gauravdubey19&hide_title=false&hide_rank=true&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=tokyonight&locale=en&hide_border=true&order=1&custom_title=Gaurav%20Dubey's%20Stats" height="135" alt="stats graph"  />
   <img src="https://streak-stats.demolab.com?user=gauravdubey19&locale=en&mode=weekly&theme=tokyonight&hide_border=true&border_radius=2&date_format=M%20j%5B,%20Y%5D&order=3" height="135" alt="streak graph"  />
@@ -14,7 +21,7 @@ height="135" alt="languages graph"  />
 </div>
 
 ###
-<h1>💻 Tech Stack -</h1>
+## 💻 Tech Stack
 <div align="left">
   <img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white&style=for-the-badge" height="25" alt="mongodb logo"  />
   <img width="3" />
@@ -114,19 +121,28 @@ height="135" alt="languages graph"  />
 </div>
 
 ###
-<h1>🌐 Socials -</h1>
-<div align="left">
-  <a href="https://www.linkedin.com/in/gauravdubey19/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="25" height="20" alt="linkedin logo"  />
-  </a>
-  <a href="https://discord.com/channels/553216852130660353/1018120802085916722" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="25" height="20" alt="discord logo"  />
-  </a>
-  <a href="https://www.instagram.com/silent_way19/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="25" height="20" alt="instagram logo"  />
-  </a>
-</div>
+<!--------------------------------- Social Links --------------------------------->
+## 🤝🏻 Connect with Me
 
-###
+<p align="left">
+<a href="mailto:dubeygaurav520@gmail.com" style="text-decoration:none">
+  <img height="30" src = "https://img.shields.io/badge/gmail-c14438?&style=for-the-badge&logo=gmail&logoColor=white">
+</a>
+<a href="https://www.linkedin.com/in/gauravdubey19/" style="text-decoration:none">
+  <img height="30" src="https://img.shields.io/badge/linkedin-blue.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+<a href="[https://www.instagram.com/devraj_uiux/](https://www.instagram.com/silent_way19/)" style="text-decoration:none">
+  <img height="30" src = "https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=for-the-badge&logo=Instagram&logoColor=white">
+</a>
+<a href="https://discord.com/channels/553216852130660353/1018120802085916722" style="text-decoration:none">
+  <img height="30" src="https://img.shields.io/badge/discord-darkblue.svg?&style=for-the-badge&logo=discord&logoColor=white" />
+</a>
+</p>
+
+<!---------------------------------  Marquee Animation  ------------------------>
+<img height="100" alt="Thanks for visiting me" width="100%" src="https://raw.githubusercontent.com/BrunnerLivio/brunnerlivio/master/images/marquee.svg" />
+
+<!---------------------------------  Wallpaper  ------------------------>
+<img height="500" alt="Thanks for visiting me" width="100%" src="https://raw.githubusercontent.com/DenverCoder1/minimalistic-wallpaper-collection/main/images/alena-aenami-any-minute-now.jpg" />
 
 
