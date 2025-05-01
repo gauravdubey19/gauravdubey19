@@ -18,9 +18,9 @@
 
 - 🔭 Currently crafting my Portfolio with passion and precision.
 - 👨‍💻 Explore my diverse projects at [gauravdubey.vercel.app](https://gauravdubey.vercel.app/).
-- 💬 Ask me about **Web or App Development.**
-- 📫 Reach out to me at: <a href="mailto:dubeygaurav520@gmail.com">dubeygaurav520@gmail.com</a>
-- 📄 Dive into my experiences with my **[Resume](https://gauravdubey.vercel.app/assets/resume/Gaurav_Dubey_CV_Resume.pdf)**
+- 💬 Ask me about **Web or App Development**.
+- 📫 Reach out to me at <a href="mailto:dubeygaurav520@gmail.com">dubeygaurav520@gmail.com</a>.
+- 📄 Dive into my experiences with my **[Resume](https://gauravdubey.vercel.app/assets/resume/Gaurav_Dubey_CV_Resume.pdf)**.
 <!--- 👯 Building [Design & Code](https://discord.gg/gM3bG4rAU5) Community.-->
 <!--- ⚡ Fun fact: Apart from coding, I'm also an accomplished **Artist**!-->
 <br>
