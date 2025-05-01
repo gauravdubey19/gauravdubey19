@@ -160,9 +160,13 @@ height="139" alt="languages graph"  />
 </p>
 
 <!---------------------------------  Marquee Animation  ------------------------>
-<img height="100" alt="Thanks for visiting me" width="100%" src="https://raw.githubusercontent.com/BrunnerLivio/brunnerlivio/master/images/marquee.svg" />
+<a href="https://github.com/gauravdubey19" style="text-decoration:none">
+  <img height="100" alt="Thanks for visiting me" width="100%" src="https://raw.githubusercontent.com/BrunnerLivio/brunnerlivio/master/images/marquee.svg" />
+</a>
 
 <!---------------------------------  Wallpaper  ------------------------>
-<img height="500" alt="Thanks for visiting me" width="100%" src="https://raw.githubusercontent.com/DenverCoder1/minimalistic-wallpaper-collection/main/images/alena-aenami-any-minute-now.jpg" />
+<a href="https://github.com/gauravdubey19" style="text-decoration:none">
+  <img height="500" alt="Thanks for visiting me" width="100%" src="https://raw.githubusercontent.com/DenverCoder1/minimalistic-wallpaper-collection/main/images/alena-aenami-any-minute-now.jpg" />
+</a>
 
 
