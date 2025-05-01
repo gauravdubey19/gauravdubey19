@@ -28,10 +28,10 @@
 
 ###
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=gauravdubey19&hide_title=false&hide_rank=true&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=tokyonight&locale=en&hide_border=true&order=1&custom_title=Gaurav%20Dubey's%20Stats" height="135" alt="stats graph"  />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=gauravdubey19&theme=tokyonight&hide_border=true&date_format=M%20j%2C%20Y" height="135" alt="streak graph"  />
+  <img src="https://github-readme-stats.vercel.app/api?username=gauravdubey19&hide_title=false&hide_rank=true&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=tokyonight&locale=en&hide_border=true&order=1&custom_title=Gaurav%20Dubey's%20Stats" height="130" alt="stats graph"  />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=gauravdubey19&theme=tokyonight&hide_border=true&date_format=M%20j%2C%20Y" height="130" alt="streak graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=gauravdubey19&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=10&theme=tokyonight&hide_border=true&order=2"
-height="135" alt="languages graph"  />
+height="130" alt="languages graph"  />
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=gauravdubey19&radius=16&theme=react&area=true&order=5&bg_color=#000&hide_title=false&hide_border=true" height="300" alt="activity-graph graph"  />
   <img src="https://github-profile-trophy.vercel.app?username=gauravdubey19&theme=onestar&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
 </div>
