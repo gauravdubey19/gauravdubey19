@@ -10,15 +10,33 @@
 
 <!---------------------------- About Me ----------------------------->
 
+<!-- <img align="right" height="250" width="375" alt="" src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" /> -->
+<img align="right" alt="GIF" src="https://raw.githubusercontent.com/DevrajDC/DevrajDC/main/developer.gif" height="250" width="375" />
+<br>
+<br>
+
+- 🔭 Currently crafting my Portfolio with passion and precision.
+- 👨‍💻 Explore my diverse projects at [gauravdubey.vercel.app](https://gauravdubey.vercel.app/).
+- 💬 Ask me about **Web or App Development.**
+- 📫 Reach out to me at: <a href="mailto:dubeygaurav520@gmail.com">dubeygaurav520@gmail.com</a>
+- 📄 Dive into my experiences with my **[Resume](https://gauravdubey.vercel.app/assets/resume/Gaurav_Dubey_CV_Resume.pdf)**
+<!--- 👯 Building [Design & Code](https://discord.gg/gM3bG4rAU5) Community.-->
+<!--- ⚡ Fun fact: Apart from coding, I'm also an accomplished **Artist**!-->
+<br>
+<br>
+
+
 ###
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=gauravdubey19&hide_title=false&hide_rank=true&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=tokyonight&locale=en&hide_border=true&order=1&custom_title=Gaurav%20Dubey's%20Stats" height="135" alt="stats graph"  />
-  <img src="https://streak-stats.demolab.com?user=gauravdubey19&locale=en&mode=weekly&theme=tokyonight&hide_border=true&border_radius=2&date_format=M%20j%5B,%20Y%5D&order=3" height="135" alt="streak graph"  />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=gauravdubey19&theme=tokyonight&hide_border=true&date_format=M%20j%2C%20Y" height="135" alt="streak graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=gauravdubey19&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=10&theme=tokyonight&hide_border=true&order=2"
 height="135" alt="languages graph"  />
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=gauravdubey19&radius=16&theme=react&area=true&order=5&bg_color=#000&hide_title=false&hide_border=true" height="300" alt="activity-graph graph"  />
   <img src="https://github-profile-trophy.vercel.app?username=gauravdubey19&theme=onestar&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
 </div>
+
+---
 
 ###
 ## 💻 Tech Stack
@@ -47,7 +65,7 @@ height="135" alt="languages graph"  />
   <img width="3" />
   <img src="https://img.shields.io/badge/Android Studio-3DDC84?logo=androidstudio&logoColor=black&style=for-the-badge" height="25" alt="androidstudio logo"  />
   <img width="3" />
-  <img src="https://camo.githubusercontent.com/b0648ef7a9b6980ea27c1caaeb06d5c8503dbb4f9b4d9d7ca1df60a5edc14340/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6a6176612d2532334544384230302e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d6f70656e6a646b266c6f676f436f6c6f723d7768697465" height="25" alt="java logo"  />
+  <img src="https://img.shields.io/badge/Java-ED8B00?logo=java&logoColor=white&style=for-the-badge" height="25" alt="java logo"  />
   <img width="3" />
   <img src="https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white&style=for-the-badge" height="25" alt="kotlin logo"  />
   <img width="3" />
