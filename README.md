@@ -151,7 +151,7 @@ height="139" alt="languages graph"  />
 <a href="https://www.linkedin.com/in/gauravdubey19/" style="text-decoration:none">
   <img height="30" src="https://img.shields.io/badge/linkedin-blue.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
-<a href="[https://www.instagram.com/devraj_uiux/](https://www.instagram.com/silent_way19/)" style="text-decoration:none">
+<a href="https://www.instagram.com/silent_way19/" style="text-decoration:none">
   <img height="30" src = "https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=for-the-badge&logo=Instagram&logoColor=white">
 </a>
 <a href="https://discord.com/channels/553216852130660353/1018120802085916722" style="text-decoration:none">
