@@ -17,10 +17,10 @@
 <br>
 
 - 🔭 Currently crafting my Portfolio with passion and precision.
-- 👨‍💻 Explore my diverse projects at [gauravdubey.vercel.app](https://gauravdubey.vercel.app/).
+- 👨‍💻 Explore my diverse projects at [gauravdubey.is-a.dev](https://gauravdubey.is-a.dev).
 - 💬 Ask me about **Web or App Development**.
 - 📫 Reach out to me at <a href="mailto:dubeygaurav520@gmail.com">dubeygaurav520@gmail.com</a>.
-- 📄 Dive into my experiences with my **[Resume](https://gauravdubey.vercel.app/assets/resume/Gaurav_Dubey_CV_Resume.pdf)**.
+- 📄 Dive into my experiences with my **[Resume](https://gauravdubey.is-a.dev/assets/resume/Gaurav_Dubey_CV_Resume.pdf)**.
 <!--- 👯 Building [Design & Code](https://discord.gg/gM3bG4rAU5) Community.-->
 <!--- ⚡ Fun fact: Apart from coding, I'm also an accomplished **Artist**!-->
 <br>
@@ -31,12 +31,12 @@
 
 ###
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=gauravdubey19&hide_title=false&hide_rank=true&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=tokyonight&locale=en&hide_border=true&order=1&custom_title=Gaurav%20Dubey's%20Stats" height="139" alt="stats graph"  />
+  <img src="https://github-readme-stats.is-a.devi?username=gauravdubey19&hide_title=false&hide_rank=true&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=tokyonight&locale=en&hide_border=true&order=1&custom_title=Gaurav%20Dubey's%20Stats" height="139" alt="stats graph"  />
   <img src="https://github-readme-streak-stats.herokuapp.com?user=gauravdubey19&theme=tokyonight&hide_border=true&date_format=M%20j%2C%20Y" height="139" alt="streak graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=gauravdubey19&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=10&theme=tokyonight&hide_border=true&order=2"
+  <img src="https://github-readme-stats.is-a.devi/top-langs?username=gauravdubey19&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=10&theme=tokyonight&hide_border=true&order=2"
 height="139" alt="languages graph"  />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=gauravdubey19&radius=16&theme=react&area=true&order=5&bg_color=#000&hide_title=false&hide_border=true" height="300" alt="activity-graph graph"  />
-  <img src="https://github-profile-trophy.vercel.app?username=gauravdubey19&theme=onestar&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
+  <img src="https://github-readme-activity-graph.is-a.devh?username=gauravdubey19&radius=16&theme=react&area=true&order=5&bg_color=#000&hide_title=false&hide_border=true" height="300" alt="activity-graph graph"  />
+  <img src="https://github-profile-trophy.is-a.deve=gauravdubey19&theme=onestar&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
 </div>
 
 ---
