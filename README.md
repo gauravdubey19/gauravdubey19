@@ -12,7 +12,7 @@
 <!---------------------------- About Me ----------------------------->
 
 <!-- <img align="right" height="250" width="375" alt="" src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" /> -->
-<img align="right" alt="GIF" src="https://raw.githubusercontent.com/DevrajDC/DevrajDC/main/developer.gif" height="250" width="375" />
+<img align="right" alt="GIF" src="https://raw.githubusercontent.com/gauravdubey19/gauravdubey19/main/developer.gif" height="250" width="375" />
 <br>
 <br>
 
