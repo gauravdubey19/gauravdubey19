@@ -171,3 +171,509 @@ height="139" alt="languages graph"  />
 </a>
 
 
+<!-- # Modern Starship Configuration - Enhanced Developer Experience
+# 
+# Get editor completions based on the config schema
+"$schema" = "https://starship.rs/config-schema.json"
+
+# Use custom palette for modern aesthetics
+palette = "catppuccin_mocha"
+
+# Optimized prompt format with better visual hierarchy
+format = """
+$os\
+$username\
+$hostname\
+$directory\
+$git_branch\
+$git_status\
+$git_metrics\
+$fill\
+$container\
+$kubernetes\
+$docker_context\
+$aws\
+$gclou\
+$azure\
+$terraform\
+$package\
+$c\
+$cmake\
+$deno\
+$dotnet\
+$golang\
+$java\
+$kotlin\
+$lua\
+$nodejs\
+$python\
+$rust\
+$swift\
+$zig\
+$nix_shell\
+$memory_usage\
+$jobs\
+$cmd_duration\
+$battery\
+$time\
+$line_break\
+$sudo\
+$character"""
+
+# Add spacing between prompts for better readability
+add_newline = true
+
+# Enable right prompt for additional context
+right_format = """$shell"""
+
+# --- System Information ---
+
+[os]
+disabled = false
+style = "bold fg:surface0"
+format = "[$symbol ]($style)"
+
+[os.symbols]
+Alpaquita = "󰝸"
+Alpine = ""
+Amazon = ""
+Android = "󰀲"
+Arch = "󰣇"
+Artix = "󰣇"
+CentOS = ""
+Debian = ""
+DragonFly = ""
+Emscripten = "󰯃"
+EndeavourOS = ""
+Fedora = "󰣛"
+FreeBSD = ""
+Garuda = "󰛓"
+Gentoo = "󰣨"
+HardenedBSD = "󰞌"
+Illumos = "󰌷"
+Linux = ""
+Mabox = ""
+Macos = "󰧨"
+Manjaro = "󱘊"
+Mariner = ""
+MidnightBSD = "󰖔"
+Mint = "󰣭"
+NetBSD = ""
+NixOS = ""
+OpenBSD = "󰈺"
+OpenCloudOS = ""
+openEuler = "󰠜"
+openSUSE = ""
+OracleLinux = "󰌷"
+Pop = ""
+Raspbian = ""
+Redhat = "󱄛"
+RedHatEnterprise = "󱄛"
+Redox = "󰀘"
+Solus = "󰠳"
+SUSE = ""
+Ubuntu = ""
+Unknown = "󱔢"
+Windows = ""
+
+[username]
+style_user = "bold fg:yellow"
+style_root = "bold fg:red"
+format = "[$user]($style) "
+disabled = false
+show_always = false
+
+[hostname]
+ssh_only = true
+ssh_symbol = "󰖟 "
+style = "bold fg:green"
+format = "on [$ssh_symbol$hostname]($style) "
+
+# --- Directory Configuration ---
+
+[directory]
+style = "bold fg:blue"
+format = "[ $path]($style)[$read_only]($read_only_style) "
+truncation_length = 3
+truncation_symbol = "…"
+truncate_to_repo = false
+fish_style_pwd_dir_length = 1
+use_logical_path = true
+home_symbol = "~"
+read_only = "󰌾"
+read_only_style = "fg:red"
+
+[directory.substitutions]
+"Documents" = "󰈙 "
+"Downloads" = "󰉍 "
+"Music" = "󰝚 "
+"Pictures" = "󰉏 "
+"Videos" = "󰕧 "
+"Desktop" = "󰧨 "
+"Developer" = "󰲋 "
+"Development" = "󰲋 "
+"Code" = "󰲋 "
+"Projects" = "󰉋 "
+"Work" = "󰢬 "
+"git" = "󰊢 "
+"src" = "󰴉 "
+".config" = " "
+"node_modules" = " "
+
+# --- Git Configuration ---
+
+[git_branch]
+symbol = " "
+style = "bold fg:purple"
+format = "on [$symbol$branch(:$remote_branch)]($style) "
+truncation_length = 20
+truncation_symbol = "…"
+only_attached = false
+always_show_remote = false
+
+[git_commit]
+commit_hash_length = 7
+style = "bold fg:green"
+format = "[\\($hash$tag\\)]($style) "
+only_detached = true
+tag_symbol = "󰓹 "
+tag_max_candidates = 0
+tag_disabled = false
+
+[git_status]
+style = "bold fg:red"
+format = "([$all_status$ahead_behind]($style)) "
+conflicted = "󰞇 "
+ahead = "󰶣 ${count} "
+behind = "󰶡 ${count} "
+diverged = "󰃻 󰶣${ahead_count} 󰶡${behind_count} "
+up_to_date = ""
+untracked = "󰋗 ${count} "
+stashed = "󰆓 ${count} "
+modified = "󰛿 ${count} "
+staged = "󰐗 ${count} "
+renamed = "󰑕 ${count} "
+deleted = "󰍵 ${count} "
+typechanged = ""
+ignore_submodules = false
+disabled = false
+
+[git_metrics]
+added_style = "bold fg:green"
+deleted_style = "bold fg:red"
+only_nonzero_diffs = true
+format = "([+$added]($added_style) )([-$deleted]($deleted_style) )"
+disabled = false
+ignore_submodules = false
+
+[git_state]
+format = '\([$state( $progress_current/$progress_total)]($style)\) '
+style = "bright-black"
+rebase = "REBASING"
+merge = "MERGING"
+revert = "REVERTING"
+cherry_pick = "CHERRY-PICKING"
+bisect = "BISECTING"
+am = "AM"
+am_or_rebase = "AM/REBASE"
+
+# --- Cloud & Container Platforms ---
+
+[aws]
+symbol = " "
+style = "bold fg:orange"
+format = "[$symbol($profile )(\\($region\\) )(\\[$duration\\] )]($style)"
+expiration_symbol = "X"
+
+[azure]
+disabled = false
+symbol = "󰠅 "
+style = "blue bold"
+format = "[$symbol($subscription)]($style) "
+
+# [gcloud]
+# symbol = "󱇶 "
+# style = "bold fg:blue"
+# format = "[$symbol$account(@$domain)(\\($region\\))]($style) "
+
+[docker_context]
+symbol = "󰡨 "
+style = "bold fg:cyan"
+format = "[$symbol$context]($style) "
+only_with_files = true
+detect_extensions = []
+detect_files = ["docker-compose.yml", "docker-compose.yaml", "Dockerfile"]
+detect_folders = []
+
+[kubernetes]
+symbol = "󱃾 "
+style = "bold fg:blue"
+format = "[$symbol$context( \\($namespace\\))]($style) "
+disabled = false
+detect_extensions = ["yaml", "yml"]
+detect_files = ["k8s", "Dockerfile", "skaffold.yaml"]
+detect_folders = [".kube"]
+
+[container]
+symbol = "󰏖 "
+style = "bold fg:red dimmed"
+format = "[$symbol \\[$name\\]]($style) "
+
+[terraform]
+symbol = "󱁢 "
+style = "bold fg:purple"
+format = "[$symbol$workspace]($style) "
+
+# --- Language & Runtime Versions ---
+
+[c]
+symbol = " "
+style = "bold fg:blue"
+format = "[$symbol($version(-$name) )]($style)"
+detect_extensions = ["c", "h"]
+
+[cmake]
+symbol = "󰘧 "
+style = "bold fg:blue"
+format = "[$symbol($version )]($style)"
+
+[deno]
+symbol = "󰛦 "
+style = "bold fg:green"
+format = "[$symbol($version )]($style)"
+
+[dotnet]
+symbol = "󰪮 "
+style = "bold fg:blue"
+format = "[$symbol($version )(󰓾 $tfm )]($style)"
+
+[golang]
+symbol = "󰟓 "
+style = "bold fg:cyan"
+format = "[$symbol($version )]($style)"
+not_capable_style = "bold fg:red"
+
+[haskell]
+symbol = "󰲒 "
+style = "bold fg:purple"
+format = "[$symbol($version )]($style)"
+
+[java]
+symbol = " "
+style = "bold fg:red dimmed"
+format = "[$symbol($version )]($style)"
+
+[kotlin]
+symbol = " "
+style = "bold fg:blue"
+format = "[$symbol($version )]($style)"
+
+[lua]
+symbol = "󰢱 "
+style = "bold fg:blue"
+format = "[$symbol($version )]($style)"
+
+[nodejs]
+symbol = "󰎙 "
+style = "bold fg:green"
+format = "[$symbol($version )]($style)"
+not_capable_style = "bold fg:red"
+detect_extensions = ["js", "mjs", "cjs", "ts", "mts", "cts"]
+detect_files = ["package.json", ".node-version", ".nvmrc"]
+
+[python]
+symbol = "󰌠 "
+style = "bold fg:yellow"
+format = '[${symbol}${pyenv_prefix}(${version} )(\($virtualenv\) )]($style)'
+version_format = "v${raw}"
+pyenv_version_name = false
+pyenv_prefix = "pyenv "
+python_binary = ["python", "python3", "python2"]
+detect_extensions = ["py"]
+detect_files = [".python-version", "Pipfile", "__init__.py", "pyproject.toml", "requirements.txt", "setup.py", "tox.ini"]
+
+[ruby]
+symbol = " "
+style = "bold fg:red"
+format = "[$symbol($version )]($style)"
+version_format = "v${raw}"
+
+[rust]
+symbol = "󱘗 "
+style = "bold fg:orange"
+format = "[$symbol($version )]($style)"
+
+[swift]
+symbol = "󰛥 "
+style = "bold fg:orange"
+format = "[$symbol($version )]($style)"
+
+[zig]
+symbol = "󰚌 "
+style = "bold fg:yellow"
+format = "[$symbol($version )]($style)"
+
+# --- Package Managers ---
+
+[package]
+symbol = "󰏗 "
+style = "bold fg:white"
+format = "[$symbol$version]($style) "
+version_format = "v${raw}"
+display_private = false
+
+[nix_shell]
+symbol = "󱄅 "
+style = "bold fg:blue"
+format = "[$symbol$state( \\($name\\))]($style) "
+impure_msg = "[impure shell](bold red)"
+pure_msg = "[pure shell](bold green)"
+unknown_msg = "[unknown shell](bold yellow)"
+
+# --- System Status ---
+
+# [memory_usage]
+# disabled = false
+# threshold = 75
+# symbol = "󰘚 "
+# style = "bold dimmed fg:white"
+# format = "[$symbol${ram}( | ${swap})]($style) "
+
+[battery]
+# symbol = "󱊣 "
+full_symbol = "󱊣 "
+charging_symbol = "󱊥 "
+discharging_symbol = "󰂃 "
+unknown_symbol = "󱊢 "
+empty_symbol = "󰂎 "
+format = "[$symbol$percentage]($style) "
+
+[[battery.display]]
+threshold = 10
+style = "bold red"
+
+[[battery.display]]
+threshold = 30
+style = "bold yellow"
+
+[jobs]
+threshold = 1
+symbol = "󰜎 "
+style = "bold red"
+number_threshold = 2
+symbol_threshold = 1
+format = "[$symbol$number]($style) "
+
+[cmd_duration]
+min_time = 2_000
+show_milliseconds = false
+style = "bold fg:yellow"
+format = "[$duration]($style) "
+
+[time]
+disabled = false
+time_format = "%R"
+style = "bold fg:surface0"
+# symbol = " "
+format = " [$time]($style) "
+use_12hr = false
+utc_time_offset = "local"
+
+[shell]
+bash_indicator = "bash"
+fish_indicator = "fish"
+zsh_indicator = "zsh"
+powershell_indicator = "pwsh"
+cmd_indicator = "cmd"
+nu_indicator = "nu"
+xonsh_indicator = "xonsh"
+unknown_indicator = "shell"
+style = "bold fg:surface0"
+format = "[$indicator]($style)"
+disabled = false
+
+# --- Prompt Character ---
+
+[character]
+success_symbol = "[❯](bold green)"
+error_symbol = "[❯](bold red)"
+vimcmd_symbol = "[󰜲](bold cyan)"
+vimcmd_replace_one_symbol = "[󰜲](bold purple)"
+vimcmd_replace_symbol = "[󰜲](bold purple)"
+vimcmd_visual_symbol = "[󰜲](bold yellow)"
+
+[sudo]
+style = "bold red"
+symbol = "󰚌 "
+format = "[as $symbol]($style)"
+disabled = false
+
+# --- Layout ---
+
+[fill]
+symbol = " "
+style = "bold black"
+
+[line_break]
+disabled = false
+
+# --- Color Palettes ---
+
+[palettes.catppuccin_mocha]
+rosewater = "#f5e0dc"
+flamingo = "#f2cdcd"
+pink = "#f5c2e7"
+mauve = "#cba6f7"
+red = "#f38ba8"
+maroon = "#eba0ac"
+peach = "#fab387"
+yellow = "#f9e2af"
+green = "#a6e3a1"
+teal = "#94e2d5"
+sky = "#89dceb"
+sapphire = "#74c7ec"
+blue = "#89b4fa"
+lavender = "#b4befe"
+text = "#cdd6f4"
+subtext1 = "#bac2de"
+subtext0 = "#a6adc8"
+overlay2 = "#9399b2"
+overlay1 = "#7f849c"
+overlay0 = "#6c7086"
+surface2 = "#585b70"
+surface1 = "#45475a"
+surface0 = "#313244"
+base = "#1e1e2e"
+mantle = "#181825"
+crust = "#11111b"
+purple = "#cba6f7"
+cyan = "#89dceb"
+orange = "#fab387"
+white = "#cdd6f4"
+gray = "#6c7086"
+black = "#11111b"
+
+# Alternative modern palette
+[palettes.tokyo_night]
+foreground = "#c0caf5"
+background = "#1a1b26"
+background_highlight = "#24283b"
+terminal_black = "#414868"
+black = "#32344a"
+red = "#f7768e"
+green = "#9ece6a"
+yellow = "#e0af68"
+blue = "#7aa2f7"
+purple = "#ad8ee6"
+cyan = "#449dab"
+white = "#787c99"
+bright_black = "#444b6a"
+bright_red = "#ff7a93"
+bright_green = "#b9f27c"
+bright_yellow = "#ff9e64"
+bright_blue = "#7da6ff"
+bright_purple = "#bb9af7"
+bright_cyan = "#0db9d7"
+bright_white = "#acb0d0"
+orange = "#ff9e64"
+gray = "#565f89" -->
