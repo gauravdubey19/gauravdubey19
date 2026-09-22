@@ -167,8 +167,8 @@ height="139" alt="languages graph"  />
 
 <!---------------------------------  Wallpaper  ------------------------>
 <a href="https://github.com/gauravdubey19" style="text-decoration:none">
-  <!-- <img height="500" alt="Thanks for visiting me" width="100%" src="https://raw.githubusercontent.com/DenverCoder1/minimalistic-wallpaper-collection/main/images/alena-aenami-any-minute-now.jpg" /> -->
-  <img src="https://raw.githubusercontent.com/gauravdubey19/gauravdubey19/output/github-contribution-grid-snake.svg" alt="Gaurav's Contribution Snake Animation" width="100%"/>
+  <img height="500" alt="Thanks for visiting me" width="100%" src="https://raw.githubusercontent.com/DenverCoder1/minimalistic-wallpaper-collection/main/images/alena-aenami-any-minute-now.jpg" />
+  <!-- <img src="https://raw.githubusercontent.com/gauravdubey19/gauravdubey19/output/github-contribution-grid-snake.svg" alt="Gaurav's Contribution Snake Animation" width="100%"/> -->
 </a>
 
 
