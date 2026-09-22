@@ -167,11 +167,13 @@ height="139" alt="languages graph"  />
 
 <!---------------------------------  Wallpaper  ------------------------>
 <a href="https://github.com/gauravdubey19" style="text-decoration:none">
-  <img height="500" alt="Thanks for visiting me" width="100%" src="https://raw.githubusercontent.com/DenverCoder1/minimalistic-wallpaper-collection/main/images/alena-aenami-any-minute-now.jpg" />
+  <!-- <img height="500" alt="Thanks for visiting me" width="100%" src="https://raw.githubusercontent.com/DenverCoder1/minimalistic-wallpaper-collection/main/images/alena-aenami-any-minute-now.jpg" /> -->
+  <img src="https://raw.githubusercontent.com/gauravdubey19/gauravdubey19/output/github-contribution-grid-snake.svg" alt="Adarsh's Contribution Snake Animation" width="100%"/>
 </a>
 
 
-<!-- # Modern Starship Configuration - Enhanced Developer Experience
+<!-- 
+# Modern Starship Configuration - Enhanced Developer Experience
 # 
 # Get editor completions based on the config schema
 "$schema" = "https://starship.rs/config-schema.json"
@@ -676,4 +678,5 @@ bright_purple = "#bb9af7"
 bright_cyan = "#0db9d7"
 bright_white = "#acb0d0"
 orange = "#ff9e64"
-gray = "#565f89" -->
+gray = "#565f89"
+-->
